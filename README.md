@@ -1,6 +1,6 @@
 # praktikperiode smartlights
 
-![](https://cdn.dribbble.com/users/442306/screenshots/7849062/media/253a83a2492a6d66f07698116844a84a.mp4)
+![](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/uidemo.mp4)
 
 ## Opgavebeskrivelse
 
