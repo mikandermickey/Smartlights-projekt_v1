@@ -36,6 +36,7 @@ Opgaven indeholder tre hoved-krav som skal opfyldes. Kravene er opstillet i ræk
   * Tilføj et splash screen (evt. med animationer) til applikationen.
   * Tilføj et login-flow til applikationen med random brugernavn og adgangskode.
   * Tilføj check på login, så kun en bruger med brugernavnet 'user' og adgangskoden '1234' kan logge ind.
+  * Download de brugte skrifter og tilføj dem til din css-fil så du ikke er afhængig af Googles font-cdn.
   
 ## Varighed
 Du har 8 arbejdsdage til at løse praktikopgaven.
@@ -48,6 +49,9 @@ Github / Netlify (deployment)<br>
 
 ## Matrialer
 Du skal downloade XD filen herfra: https://dribbble.com/shots/7849062-Smart-lights-Free-Adobe-XD
+
+### Font
+Fonten som bruges i opgaven hedder Circular. Det er dog en købefont. <br>Du kan bruge Google fonten Montserrat som alternativ.
 
 ## Aflevering
 Aflevering torsdag d. 29. oktober.<br>
