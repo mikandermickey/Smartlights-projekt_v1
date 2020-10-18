@@ -42,7 +42,7 @@ Du har 8 arbejdsdage til at løse praktikopgaven.
 
 ## Applikation tech stack
 ReactJS<br>
-Context<br>
+React Context<br>
 CSS in JS (valgfrit)<br>
 Github / Netlify (deployment)<br>
 
@@ -52,5 +52,5 @@ Du skal downloade XD filen herfra: https://dribbble.com/shots/7849062-Smart-ligh
 ## Aflevering
 Aflevering torsdag d. 29. oktober.<br>
 Du har afleveret når din applikation er hostet på Netlify eller github pages og linket hertil er sat ind herunder.<br><br>
-**Projekt url:** Skriv din github pages adresse her!!!
+**Projekt url:** Skriv din Netlify / github pages adresse her!!!
 
