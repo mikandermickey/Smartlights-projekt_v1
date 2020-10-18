@@ -1,13 +1,12 @@
 # praktikperiode smartlights
 
 ![](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/ctrlpanel.png)
-</br>*Ikke i korrekt skala*
+<br>*Ikke i korrekt skala*
 
 ## Opgavebeskrivelse
 
-I den kommende praktikperiode skal i arbejde med **React,** herunder **context**. Til brug for det senere valgfri specialefag om programmering og styring af fysiske enheder, skal I udvikle et brugerinterface til at kontrollere lyset i et hus. Komponenterne til applikationen skal udvikles i ReactJS. Se i afsnittet 'krav og delopgaver' for at få overblik over datakilder mv. 
+I den kommende praktikperiode skal i arbejde med **React,** herunder **context**. Til brug for det senere valgfri specialefag om programmering og styring af fysiske enheder, skal I udvikle et brugerinterface til at kontrollere lyset i et hus. Komponenterne til applikationen skal udvikles i ReactJS. Se i afsnittet 'krav og delopgaver' for at få overblik over opgaven. 
 
-Kompenterne skal udvikles i ReactJS og komponenternes indhold som ex. tekster, billeder etc. skal hostes på platformen contentful. De færdige komponenterne skal præsenteres i en React applikation på samme måde som de også er præstenteret i design filen.
 
 **Github**<br>
    1. Der **skal pushes dagligt**, så du har en backup online i tilfælde af computer nedbrud og andet. 
@@ -19,17 +18,17 @@ Kompenterne skal udvikles i ReactJS og komponenternes indhold som ex. tekster, b
 Analysere layoutet for at identificere komponenterne og gå herefter igang med at udvikle de enkelte komponenter. Det er vigtigt at du sikre dig at enkelte "elementer" ikke udvikles mere end én gang! Går noget igen, er der *formentligt* et komponent...
 
 ## Formål
-Opgavens formål er at opbygge rutine og erfaring i arbejdsgangene omkring ReactJS-udvikling, som du er blevet præsenteret for og har arbejdet med i sidste skoleperiode, og som er nødvendige for at arbejde effektivt eller med andre ord – smartere :)
+Opgavens formål er at opbygge rutine og erfaring i arbejdsgangene omkring ReactJS-udvikling, som du er blevet præsenteret for og har arbejdet med i sidste skoleperiode.
 
 ![Alt Text](https://github.com/rts-cmk-opgaver/praktikperiode-uicomponents/blob/master/giphy.gif)
 
 ## Krav og valgfrie dele
-Opgaven indeholder nogle krav som skal opfyldes. Under de enkelte krav er der en eventuel underopgave/delopgave. Disse er ekstra udfordringer og behøver ikke være løst, for at opfylde kravet. Slutteligt er der nogle ekstraopgaver, som heller ikke er krav, men som du kan udfordre dig selv med. Kravene er samtidig listet i prioriteret rækkefølge, så du kan bruge dem som en slags guide til arbejdet.
+Opgaven indeholder tre hoved-krav som skal opfyldes. Kravene er opstillet i rækkefølge, så du kan bruge dem som en slags guide til arbejdet. Herudover er der nogle ekstraopgaver, som ikke er krav, men som du kan udfordre dig selv med. Disse er ekstra udfordringer og behøver ikke være løst, for at opfylde kravet til opgven.
 
   1. Opgaven skal obygges komponentbaseret. De enkelte komponenter skal udvikles på selvstændige github branches.
   2. Løsningen skal bruge context - så data såsom navne på rummene og antallet af pærer mv. trækkes fra contexten.
   Tilføj først data direkte i context-filen, og extract dem herefter til en ekstern json-fil som fetches.
-  3. Tilføj animationer og overgange mellem de enkelte views
+  3. Tilføj animationer og overgange mellem de enkelte views (video i demo-mappen).
   
   **Ekstra, valgfri opgaver, i ikke prioriteret rækkefølge:** 
   * De enkelte komponenter præsenteres og dokumenteres i Storybook.
@@ -38,7 +37,6 @@ Opgaven indeholder nogle krav som skal opfyldes. Under de enkelte krav er der en
   * Tilføj et login-flow til applikationen med random brugernavn og adgangskode.
   * Tilføj check på login, så kun en bruger med brugernavnet 'user' og adgangskoden '1234' kan logge ind.
   
-
 ## Varighed
 Du har 8 arbejdsdage til at løse praktikopgaven.
 
@@ -46,12 +44,13 @@ Du har 8 arbejdsdage til at løse praktikopgaven.
 ReactJS<br>
 Context<br>
 CSS in JS (valgfrit)<br>
-Github (deployment)<br>
+Github / Netlify (deployment)<br>
 
 ## Matrialer
 Du skal downloade XD filen herfra: https://dribbble.com/shots/7849062-Smart-lights-Free-Adobe-XD
+
 ## Aflevering
-Aflevering torsdag d. 4 Juni.<br>
-Du har afleveret når din applikation er hostet på github pages og linket hertil er sat ind herunder.<br><br>
+Aflevering torsdag d. 29. oktober.<br>
+Du har afleveret når din applikation er hostet på Netlify eller github pages og linket hertil er sat ind herunder.<br><br>
 **Projekt url:** Skriv din github pages adresse her!!!
 
