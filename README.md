@@ -1,6 +1,6 @@
 # praktikperiode smartlights
 
-!![watch video](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/uidemo.mp4)
+![watch video (https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/uidemo.mp4)](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/uidemo.mp4)
 
 ## Opgavebeskrivelse
 
