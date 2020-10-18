@@ -1,7 +1,7 @@
 # praktikperiode smartlights
 
 ![](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/ctrlpanel.png)
-*ikke i skala / not for reference*
+</br>*Ikke i korrekt skala*
 
 ## Opgavebeskrivelse
 
