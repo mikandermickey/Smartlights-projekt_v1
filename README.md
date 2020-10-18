@@ -12,7 +12,7 @@ Kompenterne skal udvikles i ReactJS og komponenternes indhold som ex. tekster, b
 **Github**<br>
    1. Der **skal pushes dagligt**, så du har en backup online i tilfælde af computer nedbrud og andet. 
    2. De enkelte komponenter **skal udvikles på selvstændige branches**.
-   3. Der **skal foretages et merge til master** når et komponenet er færdigt.
+   3. Der **skal foretages et merge til master** når et komponenet er færdigt, men lad være med at slette branchen, da dine branches er med til at give indblik i din proces.
    
 
 **Start med at**<br>
