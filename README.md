@@ -28,7 +28,7 @@ Opgaven indeholder tre hoved-krav som skal opfyldes. Kravene er opstillet i ræk
   1. Opgaven skal obygges komponentbaseret. De enkelte komponenter skal udvikles på selvstændige github branches.
   2. Løsningen skal bruge context - så data såsom navne på rummene og antallet af pærer mv. trækkes fra contexten.
   Tilføj først data direkte i context-filen, og extract dem herefter til en ekstern json-fil som fetches.
-  3. Tilføj animationer og overgange mellem de enkelte views (video i demo-mappen).
+  3. Tilføj animationer og overgange mellem de enkelte views (video i demo-mappen).  * -- Make it work, make it pretty... --*
   
   **Ekstra, valgfri opgaver, i ikke prioriteret rækkefølge:** 
   * De enkelte komponenter præsenteres og dokumenteres i Storybook.
