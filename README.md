@@ -1,4 +1,4 @@
-# praktikperiode smartlights
+# Praktikperiode - smartlights
 
 ![](https://github.com/rts-cmk-opgaver/praktikperiode-smartlights/blob/main/ctrlpanel.png)
 <br>*Ikke i korrekt skala*
