@@ -7,9 +7,10 @@ import Headline from './components/Headline';
 
 function App() {
   return (
-    <header>
+    <>
       <Headline text="Control Panel" />
-    </header>
+    </>
+
 
   )
 };
