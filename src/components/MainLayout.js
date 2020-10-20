@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import Overskrift from "./Overskrift";
+import Rooms from "./Rooms";
 
 const MainLayout = () => {
     const style = css`
@@ -13,6 +14,7 @@ const MainLayout = () => {
     return (
         <main css={style}>
             <Overskrift text="All Rooms" />
+            <Rooms place="Bed Room" nr="4" icon="data/img/bed.svg" />
         </main>
     );
 }

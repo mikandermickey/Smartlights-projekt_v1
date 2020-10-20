@@ -7,7 +7,9 @@ const Header = () => {
     const style = css`
         display:flex;
         justify-content: space-between;
-        padding: 1em;
+        padding-top: 4.25em;
+        padding-left: 1.5em;
+        padding-bottom: 1.8em;
     `
     return (
         <header css={style}>
