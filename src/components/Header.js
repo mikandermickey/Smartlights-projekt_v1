@@ -6,6 +6,7 @@ const Header = () => {
     const style = css`
         display:flex;
         justify-content: space-between;
+        padding: 1em;
     `
     return (
         <header css={style}>
