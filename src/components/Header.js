@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import Headline from "./Headline";
-import Avatar from "../images/user.svg"
 
 const Header = () => {
     const style = css`
