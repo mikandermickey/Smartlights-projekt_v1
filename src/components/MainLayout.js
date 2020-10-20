@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
+import Overskrift from "./Overskrift";
 
 const MainLayout = () => {
     const style = css`
@@ -10,7 +11,9 @@ const MainLayout = () => {
         border:none;
     `;
     return (
-        <main css={style}></main>
+        <main css={style}>
+            <Overskrift text="All Rooms" />
+        </main>
     );
 }
 
