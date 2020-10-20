@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import Headline from "./Headline";
+import Avatar from "./Avatar";
 
 const Header = () => {
     const style = css`
@@ -10,6 +11,7 @@ const Header = () => {
     return (
         <header css={style}>
             <Headline text="Control Panel" />
+            <Avatar />
         </header>
     );
 }
