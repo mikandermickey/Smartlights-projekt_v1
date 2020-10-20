@@ -4,15 +4,15 @@ import Headline from "./Headline";
 import Avatar from "../images/user.svg"
 
 const Header = () => {
+    const style = css`
+        display:flex;
+        justify-content: space-between;
+    `
     return (
-        <header css={css`
-            display:flex;
-            justify-content: space-between;
-        `}>
+        <header css={style}>
             <Headline text="Control Panel" />
             <img src={Avatar} alt="user" />
         </header>
-    );
     );
 }
 
