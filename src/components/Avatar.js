@@ -4,7 +4,6 @@ import userImage from "../images/user.svg";
 
 const Avatar = () => {
     return (
-
         <img src={userImage} alt="User" />
     );
 }
