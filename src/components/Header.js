@@ -11,7 +11,6 @@ const Header = () => {
     return (
         <header css={style}>
             <Headline text="Control Panel" />
-            <img src={Avatar} alt="user" />
         </header>
     );
 }
