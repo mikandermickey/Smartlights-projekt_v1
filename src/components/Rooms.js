@@ -15,7 +15,8 @@ const Rooms = ({ icon, place, nr }) => {
 
     `;
     const styleImage = css`
-        padding: 1.625em 0;
+        padding-top: 1.625em;
+        padding-bottom: 1em;
     
     `;
 
