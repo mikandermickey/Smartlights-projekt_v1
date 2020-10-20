@@ -8,7 +8,6 @@ const Header = () => {
         justify-content: space-between;
         padding-top: 4.25em;
         padding-left: 1.5em;
-        
     `
     return (
         <header css={style}>
