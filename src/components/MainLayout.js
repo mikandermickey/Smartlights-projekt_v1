@@ -2,6 +2,7 @@
 import { css, jsx } from "@emotion/core";
 import Overskrift from "./Overskrift";
 import Rooms from "./Rooms";
+import Footer from "./Footer";
 
 const MainLayout = () => {
     const style = css`
@@ -10,9 +11,12 @@ const MainLayout = () => {
         border-top-left-radius: 2em;
         border-top-right-radius: 2em;
         border:none;
+        position: relative;
+        padding-bottom: 5em;
     `;
     return (
         <main css={style}>
+            <Footer />
             <Overskrift text="All Rooms" />
             <Rooms place="Bed Room" nr="4" icon="data/img/bed.svg" />
             <Rooms place="Living Room" nr="2" icon="data/img/room.svg" />
@@ -20,6 +24,7 @@ const MainLayout = () => {
             <Rooms place="Bathroom" nr="1" icon="data/img/bathtube.svg" />
             <Rooms place="Outdoor" nr="5" icon="data/img/house.svg" />
             <Rooms place="Balcony" nr="2" icon="data/img/balcony.svg" />
+
         </main>
     );
 }
