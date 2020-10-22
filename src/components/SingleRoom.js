@@ -5,14 +5,10 @@ import React from 'react';
 import PowerButton from "./PowerButton";
 import Brightness from "./Brightness";
 import ColorBox from "./Colorbox";
+import ScenesContainer from "./ScenesContainer";
 
 
 const SingleRoom = () => {
-
-    const styleH3 = css`
-        color: #002D67;
-        font-size: 19px;
-    `;
     return (
         <React.Fragment>
             <Overskrift text="Intensity" />
@@ -20,8 +16,9 @@ const SingleRoom = () => {
             <Brightness />
             <Overskrift text="Colors" />
             <ColorBox />
-
             <Overskrift text="Scenes" />
+            <ScenesContainer />
+
         </React.Fragment>
 
     );
