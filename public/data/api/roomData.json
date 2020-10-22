@@ -1,0 +1,29 @@
+{
+    "rooms": [
+        {
+            "id": "bedroom",
+            "lights": "4"
+        },
+        {
+            "id": "livingroom",
+            "lights": "2"
+        },
+        {
+            "id": "kitchen",
+            "lights": "5"
+        },
+        {
+            "id": "bathroom",
+            "lights": "1"
+        },
+        {
+            "id": "outdoor",
+            "lights": "5"
+        },
+        {
+            "id": "balcony",
+            "lights": "2"
+        }
+    ]
+}
+}
