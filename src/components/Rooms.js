@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
+import { Link } from "@reach/router"
 
 
 const Rooms = ({ icon, place, nr }) => {
@@ -20,8 +21,13 @@ const Rooms = ({ icon, place, nr }) => {
     
     `;
 
+    const styleLink = css`
+        text-decoration: none;
+        color: black;
+    `;
+
     const styleH = css`
-        font-size: 1.1em;
+        font-size: 1em;
     `;
 
     const styleP = css`
@@ -33,7 +39,7 @@ const Rooms = ({ icon, place, nr }) => {
     return (
         <div css={styleDiv}>
             <img css={styleImage} src={icon} alt="Icon" />
-            <h3 css={styleH}>{place}</h3>
+            <Link to="places" css={styleLink}><h3 css={styleH}>{place}</h3></Link>
             <p css={styleP}>{nr} Lights</p>
         </div>
     );
