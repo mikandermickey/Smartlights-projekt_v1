@@ -9,10 +9,7 @@ const Overskrift = ({ text }) => {
         font-size: 19px;
     `;
     return (
-
         <h2 css={style}>{text}</h2>
-
-
     );
 }
 

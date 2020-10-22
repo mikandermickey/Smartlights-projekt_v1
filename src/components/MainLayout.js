@@ -2,7 +2,7 @@
 import { css, jsx } from "@emotion/core";
 import RoomWrapper from "./RoomWrapper";
 import { Router } from "@reach/router"
-import ControlRoom from "../views/ControlRoom";
+import ControlRoom from "./ControlRoom";
 
 const MainLayout = () => {
     const style = css`
