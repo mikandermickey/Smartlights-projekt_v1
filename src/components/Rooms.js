@@ -3,7 +3,7 @@ import { css, jsx } from "@emotion/core";
 import { Link } from "@reach/router"
 
 
-const Rooms = ({ icon, place, nr }) => {
+const Rooms = ({ icon, place, nr, room }) => {
     const styleDiv = css`
         background-color: white;
         display: inline-block;
@@ -38,8 +38,8 @@ const Rooms = ({ icon, place, nr }) => {
     `;
     return (
         <div css={styleDiv}>
-            <img css={styleImage} src={icon} alt="Icon" />
-            <Link to="places" css={styleLink}><h3 css={styleH}>{place}</h3></Link>
+            <img css={styleImage} src={icon} alt={room} />
+            <Link to={room} css={styleLink}><h3 css={styleH}>{place}</h3></Link>
             <p css={styleP}>{nr} Lights</p>
         </div>
     );
