@@ -2,13 +2,14 @@
 import { jsx } from "@emotion/core";
 import MainLayout from "../components/MainLayout";
 import Header from "../components/Header";
+import React from 'react';
 
 const ControlPanel = () => {
     return (
-        <div>
+        <React.Fragment>
             <Header />
             <MainLayout />
-        </div>
+        </React.Fragment>
     );
 }
 

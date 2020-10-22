@@ -13,7 +13,6 @@ const Rooms = ({ icon, place, nr, room }) => {
         border-radius: 1.5em;
         width: 150px;
         height: 150px;
-
     `;
     const styleImage = css`
         padding-top: 1.625em;
