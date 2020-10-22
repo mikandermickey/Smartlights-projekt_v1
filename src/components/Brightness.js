@@ -8,7 +8,6 @@ const Brightness = () => {
         justify-content:space-between;
         width: 20.13em;
         margin-left: 1.5em;
-        margin-top: 1em;
     `;
     const styleRange = css`
         width: 258px;

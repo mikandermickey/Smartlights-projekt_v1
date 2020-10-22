@@ -7,6 +7,7 @@ const Overskrift = ({ text }) => {
         padding-left: 1.5em;
         padding-top: 1.8em;
         font-size: 19px;
+        margin-bottom: 1em;
     `;
     return (
         <h2 css={style}>{text}</h2>

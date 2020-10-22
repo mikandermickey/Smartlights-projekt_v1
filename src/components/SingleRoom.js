@@ -4,6 +4,7 @@ import Overskrift from "./Overskrift";
 import React from 'react';
 import PowerButton from "./PowerButton";
 import Brightness from "./Brightness";
+import ColorBox from "./Colorbox";
 
 
 const SingleRoom = () => {
@@ -18,6 +19,7 @@ const SingleRoom = () => {
             <PowerButton />
             <Brightness />
             <Overskrift text="Colors" />
+            <ColorBox />
 
             <Overskrift text="Scenes" />
         </React.Fragment>
