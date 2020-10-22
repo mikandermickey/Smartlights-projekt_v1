@@ -3,6 +3,7 @@ import { css, jsx } from "@emotion/core";
 import Overskrift from "./Overskrift";
 import React from 'react';
 import PowerButton from "./PowerButton";
+import Brightness from "./Brightness";
 
 
 const SingleRoom = () => {
@@ -15,6 +16,7 @@ const SingleRoom = () => {
         <React.Fragment>
             <Overskrift text="Intensity" />
             <PowerButton />
+            <Brightness />
         </React.Fragment>
 
     );
