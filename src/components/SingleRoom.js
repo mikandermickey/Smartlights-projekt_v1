@@ -17,6 +17,9 @@ const SingleRoom = () => {
             <Overskrift text="Intensity" />
             <PowerButton />
             <Brightness />
+            <Overskrift text="Colors" />
+
+            <Overskrift text="Scenes" />
         </React.Fragment>
 
     );
