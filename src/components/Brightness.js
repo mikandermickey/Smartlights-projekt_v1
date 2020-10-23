@@ -1,13 +1,11 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
-import React from 'react';
 const Brightness = () => {
 
     const styleDiv = css`
         display:flex;
         justify-content:space-between;
         width: 20.13em;
-        margin-left: 1.5em;
     `;
     const styleRange = css`
         width: 258px;

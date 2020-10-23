@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
+import { jsx } from "@emotion/core";
 import Overskrift from "./Overskrift";
 import React from 'react';
 import PowerButton from "./PowerButton";
