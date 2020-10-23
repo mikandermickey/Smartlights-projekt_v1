@@ -9,7 +9,7 @@
             "lights": "2"
         },
         {
-            "id": "kitchen",
+            "id": "bitchen",
             "lights": "5"
         },
         {
@@ -25,5 +25,4 @@
             "lights": "2"
         }
     ]
-}
 }

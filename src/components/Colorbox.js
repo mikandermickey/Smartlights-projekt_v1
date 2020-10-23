@@ -4,9 +4,7 @@ import SingleColor from "./SingleColor";
 const Colorbox = () => {
     const style = css`
     display:flex;
-    padding-left: 0.8em;
-    
-    
+    justify-content: space-between;
     `;
     return (
         <div css={style}>
@@ -16,7 +14,7 @@ const Colorbox = () => {
             <SingleColor color="#A594EB" />
             <SingleColor color="#DE94EB" />
             <SingleColor color="#EBD094" />
-            <SingleColor color="#FFFFFF" add="data/img/plus.svg" />
+            <SingleColor color="#FFFFFF" add="+" />
         </div>
     );
 }
