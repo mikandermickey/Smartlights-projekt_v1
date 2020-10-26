@@ -14,10 +14,8 @@ const MainLayout = () => {
         border-top-right-radius: 2em;
         border:none;
         position: relative;
-        padding-bottom: 5em;
         padding: 0 1.5em;
-        margin-bottom: 4em;
-        height: 100vh;
+        margin-bottom: 5em;
     `;
     return (
         <main css={style}>

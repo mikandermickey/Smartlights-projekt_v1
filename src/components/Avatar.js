@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
-import userImage from "../images/user.svg";
 
-const Avatar = () => {
+const Avatar = ({ userImage }) => {
     return (
         <img src={userImage} alt="User" />
     );

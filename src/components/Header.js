@@ -17,10 +17,10 @@ const Header = () => {
     return (
         <header css={style}>
             <Router>
-                <Circles path="/" circle="data/img/circles.svg" />
-                <Headline path="/:roomid" text="Control Panel" />
-                <Avatar path="/" />
+                <Headline path="/:roomid" />
             </Router>
+            <Avatar userImage="data/img/user.svg" />
+            <Circles circle="data/img/circles.svg" />
         </header>
     );
 }
