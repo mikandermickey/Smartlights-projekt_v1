@@ -3,6 +3,7 @@ import { css, jsx } from "@emotion/core";
 import Headline from "./Headline";
 import Avatar from "./Avatar";
 import Circles from "./Circles";
+import { Router } from "@reach/router";
 
 const Header = () => {
     const style = css`
@@ -15,9 +16,11 @@ const Header = () => {
     `
     return (
         <header css={style}>
-            <Circles circle="data/img/circles.svg" />
-            <Headline text="Control Panel" />
-            <Avatar />
+            <Router>
+                <Circles path="/" circle="data/img/circles.svg" />
+                <Headline path="/:roomid" text="Control Panel" />
+                <Avatar path="/" />
+            </Router>
         </header>
     );
 }

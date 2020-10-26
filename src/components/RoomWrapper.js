@@ -21,7 +21,12 @@ const RoomWrapper = () => {
             <Overskrift text="All Rooms" />
             <div css={style}>
                 {rooms && rooms.map(room =>
-                    <Rooms place={room.id} key={room.id} nr={room.lights} icon={room.image} room={room.id} />
+                    <Rooms
+                        place={room.id}
+                        key={room.id}
+                        nr={room.lights}
+                        icon={room.image}
+                        room={room.id} />
                 )}
                 {/*
                 Loopet ovenfor erstatter den hardcodede ugave:

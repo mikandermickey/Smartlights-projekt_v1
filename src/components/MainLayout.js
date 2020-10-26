@@ -3,8 +3,6 @@ import { css, jsx } from "@emotion/core";
 import RoomWrapper from "./RoomWrapper";
 import { Router } from "@reach/router"
 import ControlRoom from "./ControlRoom";
-import { useContext } from "react";
-import { RoomContext } from "../contexts/RoomContext";
 
 const MainLayout = () => {
     //const { room } = useContext(RoomContext);
