@@ -5,7 +5,8 @@ import Avatar from "./Avatar";
 import Circles from "./Circles";
 import { Router } from "@reach/router";
 
-const Header = () => {
+const Header = (props) => {
+    console.log(props.roomid)
     const style = css`
         display:flex;
         justify-content: space-between;
@@ -17,6 +18,7 @@ const Header = () => {
     return (
         <header css={style}>
             <Router>
+                <Headline path="/" />
                 <Headline path="/:roomid" />
             </Router>
             <Avatar userImage="data/img/user.svg" />

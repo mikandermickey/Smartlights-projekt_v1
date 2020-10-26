@@ -10,7 +10,7 @@ const Brightness = () => {
     const styleRange = css`
         width: 258px;
         margin: 0 10px;
-    
+        background-color: yellow;
     `;
     return (
         <div css={styleDiv}>
