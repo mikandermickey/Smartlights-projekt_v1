@@ -5,8 +5,9 @@ const Circles = ({ circle }) => {
 
     const style = css`
         position: absolute;
-        top: -90px;
-        left: -50px;
+        top: 0px;
+        left: 0px;
+        width: 375px;
     `;
     return (
         <img css={style} src={circle} alt="circles" />

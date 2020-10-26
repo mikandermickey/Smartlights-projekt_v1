@@ -18,7 +18,6 @@ const SingleRoom = () => {
             <ColorBox />
             <Overskrift text="Scenes" />
             <ScenesContainer />
-
         </React.Fragment>
 
     );
