@@ -4,7 +4,10 @@ import { useContext } from "react";
 import { RoomContext } from "../contexts/RoomContext";
 
 
-const Headline = (props, current, setCurrent) => {
+
+const Headline = (props) => {
+    const { rooms } = useContext(RoomContext);
+    if (rooms) console.log(rooms)
 
     const style = css`
         font-size: 1.8em;
@@ -12,8 +15,8 @@ const Headline = (props, current, setCurrent) => {
         width: 2em;
         text-transform: capitalize;
     `
-    return (
-        <h1 css={style}>blab</h1>
+    return (rooms ?
+        <h1 css={style}>{props.roomid}</h1 > : <h1>Loading</h1>
     )
 };
 
