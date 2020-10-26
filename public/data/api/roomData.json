@@ -2,27 +2,33 @@
     "rooms": [
         {
             "id": "bedroom",
-            "lights": "4"
+            "lights": "4",
+            "image": "data/img/bed.svg"
         },
         {
             "id": "livingroom",
-            "lights": "2"
+            "lights": "2",
+            "image": "data/img/room.svg"
         },
         {
-            "id": "bitchen",
-            "lights": "5"
+            "id": "kitchen",
+            "lights": "5",
+            "image": "data/img/kitchen.svg"
         },
         {
             "id": "bathroom",
-            "lights": "1"
+            "lights": "1",
+            "image": "data/img/bathtube.svg"
         },
         {
             "id": "outdoor",
-            "lights": "5"
+            "lights": "5",
+            "image": "data/img/house.svg"
         },
         {
             "id": "balcony",
-            "lights": "2"
+            "lights": "2",
+            "image": "data/img/balcony.svg"
         }
     ]
 }

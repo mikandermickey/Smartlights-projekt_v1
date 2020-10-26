@@ -8,7 +8,6 @@ const Rooms = ({ icon, place, nr, room }) => {
         background-color: white;
         display: inline-block;
         padding-left: 1.25em;
-        margin-left: 1.5em;
         margin-top: 1.875em;
         border-radius: 1.5em;
         width: 150px;
@@ -19,7 +18,6 @@ const Rooms = ({ icon, place, nr, room }) => {
         padding-bottom: 1em;
     
     `;
-
     const styleLink = css`
         text-decoration: none;
         color: black;
@@ -27,12 +25,14 @@ const Rooms = ({ icon, place, nr, room }) => {
 
     const styleH = css`
         font-size: 1em;
+        text-transform: capitalize;
     `;
 
     const styleP = css`
         font-size: 0.8em;
         color: #FFA939;
         padding: 0.725em 0;
+        text-transform: capitalize;
     
     `;
     return (
