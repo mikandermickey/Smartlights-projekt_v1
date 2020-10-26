@@ -35,7 +35,7 @@ const RoomWrapper = () => {
                 <Rooms place="Kitchen" nr="5" icon="data/img/kitchen.svg" room="kitchen" />
                 <Rooms place="Bathroom" nr="1" icon="data/img/bathtube.svg" room="bathroom" />
                 <Rooms place="Outdoor" nr="5" icon="data/img/house.svg" room="outdoor" />
-    <Rooms place="Balcony" nr="2" icon="data/img/balcony.svg" room="balcony" />*/}
+                <Rooms place="Balcony" nr="2" icon="data/img/balcony.svg" room="balcony" />*/}
             </div>
         </React.Fragment>
 

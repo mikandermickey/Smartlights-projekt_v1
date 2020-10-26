@@ -8,6 +8,7 @@ import { RoomContext } from "../contexts/RoomContext";
 const Headline = (props) => {
     const { rooms } = useContext(RoomContext);
     if (rooms) console.log(rooms)
+    console.log(props)
 
     const style = css`
         font-size: 1.8em;
@@ -15,8 +16,8 @@ const Headline = (props) => {
         width: 2em;
         text-transform: capitalize;
     `
-    return (rooms ?
-        <h1 css={style}>{props.roomid}</h1 > : <h1>Loading</h1>
+    return (rooms &&
+        <h1 css={style}>{props.roomid ? props.roomid : "Control Panel"}</h1 >
     )
 };
 
