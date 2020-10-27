@@ -28,7 +28,7 @@ const Headline = (props) => {
     `
     return (rooms &&
         <div css={style}>
-            <h1 css={styleH}>{props.roomid ? props.roomid : "Control Panel"}</h1 >
+            <h1 css={styleH}> &larr;{props.roomid ? props.roomid : "Control Panel"}</h1 >
             <Avatar userImage={props.roomid ? "data/img/lampe.svg" : "data/img/user.svg"} />
             <Thebulb none={props.roomid ? "block" : "none"} />
             <LightControls show={props.roomid ? "none" : "none"} />
