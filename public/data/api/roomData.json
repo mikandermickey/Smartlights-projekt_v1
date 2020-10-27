@@ -1,12 +1,17 @@
 {
+    "lights": [
+        "Main Light",
+        "Desk Lights",
+        "Bed Lights"
+    ],
     "rooms": [
         {
-            "id": "bedroom",
+            "id": "bed room",
             "lights": "4",
             "image": "data/img/bed.svg"
         },
         {
-            "id": "livingroom",
+            "id": "living room",
             "lights": "2",
             "image": "data/img/room.svg"
         },
