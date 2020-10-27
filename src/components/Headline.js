@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { RoomContext } from "../contexts/RoomContext";
 import Avatar from "./Avatar";
 import Thebulb from "./Thebulb";
+import LightControls from "./LightControls";
 
 
 
@@ -30,6 +31,7 @@ const Headline = (props) => {
             <h1 css={styleH}>{props.roomid ? props.roomid : "Control Panel"}</h1 >
             <Avatar userImage={props.roomid ? "data/img/lampe.svg" : "data/img/user.svg"} />
             <Thebulb none={props.roomid ? "block" : "none"} />
+            <LightControls show={props.roomid ? "none" : "none"} />
         </div>
     )
 };
