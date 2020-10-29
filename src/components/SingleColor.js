@@ -7,13 +7,14 @@ const SingleColor = ({ color, add }) => {
         background-color:${color};
         width: 29px;
         height: 29px;
-        display: inline-block;
         display:flex;
         justify-content:center;
         align-items: center;
+        border:none;
+        outline: none;
     `;
     return (
-        <div css={style}><button css={css`border:none; background-color:white;`}>{add}</button></div>
+        <button css={style} onClick="click">{add}</button>
     );
 }
 
