@@ -5,6 +5,7 @@ import { RoomContext } from "../contexts/RoomContext";
 import Avatar from "./Avatar";
 import Thebulb from "./Thebulb";
 import LightControls from "./LightControls";
+import LightBulbCSS from "./LightBulbCSS";
 
 
 
@@ -30,7 +31,7 @@ const Headline = (props) => {
         <div css={style}>
             <h1 css={styleH}> &larr;{props.roomid ? props.roomid : "Control Panel"}</h1 >
             <Avatar userImage={props.roomid ? "data/img/lampe.svg" : "data/img/user.svg"} />
-            <Thebulb none={props.roomid ? "block" : "none"} />
+            <LightBulbCSS none={props.roomid ? "block" : "none"} />
             <LightControls show={props.roomid ? "none" : "none"} />
         </div>
     )
