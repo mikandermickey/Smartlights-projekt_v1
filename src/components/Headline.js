@@ -1,15 +1,15 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import { useContext } from "react";
+import React from 'react'
 import { RoomContext } from "../contexts/RoomContext";
 import Avatar from "./Avatar";
-import Thebulb from "./Thebulb";
-import LightControls from "./LightControls";
 import LightBulbCSS from "./LightBulbCSS";
+import LightsContainer from "./LightsContainer";
 
 
 
-const Headline = (props) => {
+const Headline = (props, { show }) => {
     const { rooms } = useContext(RoomContext);
     if (rooms) console.log(rooms)
     console.log(props)
@@ -28,12 +28,15 @@ const Headline = (props) => {
         padding-top: 3em;
     `
     return (rooms &&
-        <div css={style}>
-            <h1 css={styleH}> &larr;{props.roomid ? props.roomid : "Control Panel"}</h1 >
-            <Avatar userImage={props.roomid ? "data/img/lampe.svg" : "data/img/user.svg"} />
-            <LightBulbCSS none={props.roomid ? "block" : "none"} />
-            <LightControls show={props.roomid ? "none" : "none"} />
-        </div>
+        <React.Fragment>
+
+            <div css={style}>
+                <h1 css={styleH}> &larr;{props.roomid ? props.roomid : "Control Panel"}</h1 >
+                <Avatar userImage={props.roomid ? "data/img/lampe.svg" : "data/img/user.svg"} />
+                <LightBulbCSS none={props.roomid ? "block" : "none"} />
+            </div>
+            <LightsContainer />
+        </React.Fragment>
     )
 };
 

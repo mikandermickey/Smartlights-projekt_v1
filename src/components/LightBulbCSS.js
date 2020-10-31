@@ -14,7 +14,7 @@ const LightBulbCSS = ({ fill, none }) => {
                     <filter id="Ellipse_10" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse">
                         <feOffset dy="3" input="SourceAlpha" />
                         <feGaussianBlur stdDeviation="8" result="blur" />
-                        <feFlood flood-color="#ffc72f" />
+                        <feFlood floodColor="#ffc72f" />
                         <feComposite operator="in" in2="blur" />
                         <feComposite in="SourceGraphic" />
                     </filter>

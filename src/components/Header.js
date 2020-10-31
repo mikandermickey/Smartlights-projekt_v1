@@ -3,7 +3,6 @@ import { css, jsx } from "@emotion/core";
 import Headline from "./Headline";
 import Circles from "./Circles";
 import { Router } from "@reach/router";
-import LightControls from "./LightControls";
 
 const Header = (props) => {
     console.log(props.roomid)
