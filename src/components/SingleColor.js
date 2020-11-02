@@ -14,7 +14,7 @@ const SingleColor = ({ color, add }) => {
         outline: none;
     `;
     return (
-        <button css={style} onClick="click">{add}</button>
+        <button css={style}>{add}</button>
     );
 }
 

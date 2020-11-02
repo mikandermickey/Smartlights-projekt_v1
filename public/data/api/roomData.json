@@ -1,8 +1,33 @@
 {
+    "colors": [
+        "#FF9B9B",
+        "#94EB9E",
+        "#94CAEB",
+        "#A594EB",
+        "#DE94EB",
+        "#EBD094"
+    ],
     "lights": [
-        "Main Light",
-        "Desk Lights",
-        "Bed Lights"
+        {
+            "id": "1",
+            "image": "data/img/mainLight.svg",
+            "place": "Main Light"
+        },
+        {
+            "id": "2",
+            "image": "data/img/desklight.svg",
+            "place": "Desk Lights"
+        },
+        {
+            "id": "3",
+            "image": "data/img/bedlight.svg",
+            "place": "Bed Light"
+        },
+        {
+            "id": "4",
+            "image": "data/img/bedlight.svg",
+            "place": "Bed Light"
+        }
     ],
     "rooms": [
         {
