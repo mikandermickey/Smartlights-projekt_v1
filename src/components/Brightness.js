@@ -9,7 +9,6 @@ const Brightness = () => {
         width: 20.13em;
     `;
     const styleRange = css`
-        width: 258px;
         margin: 0 10px;
         background-color: yellow;
     `;
@@ -19,8 +18,6 @@ const Brightness = () => {
             <label htmlFor="brightness"></label>
             <input className="range" css={styleRange} type="range" id="brightness" min="0" max="100" />
             <img src="data/img/on.svg" alt="Turned on" />
-
-
         </div>
     );
 }
