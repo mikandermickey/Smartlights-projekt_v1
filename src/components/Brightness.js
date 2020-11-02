@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
+import "../stylesheets/Range.scss";
 const Brightness = () => {
 
     const styleDiv = css`
@@ -16,7 +17,7 @@ const Brightness = () => {
         <div css={styleDiv}>
             <img src="data/img/off.svg" alt="Turned off" />
             <label htmlFor="brightness"></label>
-            <input css={styleRange} type="range" id="brightness" min="0" max="100" />
+            <input className="range" css={styleRange} type="range" id="brightness" min="0" max="100" />
             <img src="data/img/on.svg" alt="Turned on" />
 
 

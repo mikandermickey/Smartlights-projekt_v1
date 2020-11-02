@@ -1,19 +1,25 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import SingleColor from "./SingleColor";
+import { useContext } from "react";
+import { ColorContext } from "../contexts/ColorContext";
+
+
 const Colorbox = () => {
+
+    const { colors } = useContext(ColorContext);
+    if (colors) console.log(colors);
+
     const style = css`
     display:flex;
     justify-content: space-between;
     `;
     return (
         <div css={style}>
-            <SingleColor color="#FF9B9B" />
-            <SingleColor color="#94EB9E" />
-            <SingleColor color="#94CAEB" />
-            <SingleColor color="#A594EB" />
-            <SingleColor color="#DE94EB" />
-            <SingleColor color="#EBD094" />
+            {colors && colors.map(color =>
+                <SingleColor
+                    color={color} />
+            )}
             <SingleColor color="#FFFFFF" add="+" />
         </div>
     );

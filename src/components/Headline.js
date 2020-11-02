@@ -33,7 +33,7 @@ const Headline = (props, { show }) => {
             <div css={style}>
                 <h1 css={styleH}> &larr;{props.roomid ? props.roomid : "Control Panel"}</h1 >
                 <Avatar userImage={props.roomid ? "data/img/lampe.svg" : "data/img/user.svg"} />
-                <LightBulbCSS none={props.roomid ? "block" : "none"} />
+                <LightBulbCSS fill="yellow" none={props.roomid ? "block" : "none"} />
             </div>
             <LightsContainer />
         </React.Fragment>

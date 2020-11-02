@@ -1,4 +1,12 @@
 {
+    "colors": [
+        "#FF9B9B",
+        "#94EB9E",
+        "#94CAEB",
+        "#A594EB",
+        "#DE94EB",
+        "#EBD094"
+    ],
     "lights": [
         {
             "id": "1",
