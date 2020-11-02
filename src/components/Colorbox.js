@@ -6,7 +6,6 @@ import { ColorContext } from "../contexts/ColorContext";
 
 
 const Colorbox = () => {
-
     const { colors } = useContext(ColorContext);
     if (colors) console.log(colors);
 

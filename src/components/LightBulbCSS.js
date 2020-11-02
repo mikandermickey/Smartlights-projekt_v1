@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
+import { useContext } from "react";
+import { BrightContext } from "../contexts/BrightContext";
 
-const LightBulbCSS = ({ fill, none, opacity }) => {
+const LightBulbCSS = ({ fill, none }) => {
+    const { opacity, setOpacity } = useContext(BrightContext);
+    console.log(opacity)
 
     const style = css`
         position: absolute;
@@ -12,12 +16,12 @@ const LightBulbCSS = ({ fill, none, opacity }) => {
         height: 25px;
         border-radius: 50%;
         background-color: ${fill};
-        opacity: ${opacity};
+        opacity: ${opacity / 100};
         
         `;
     return (
         <div css={style}></div>
     );
-}
+};
 
 export default LightBulbCSS;
