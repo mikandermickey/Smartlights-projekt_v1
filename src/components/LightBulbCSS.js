@@ -3,9 +3,10 @@ import { css, jsx } from "@emotion/core";
 import { useContext } from "react";
 import { BrightContext } from "../contexts/BrightContext";
 
-const LightBulbCSS = ({ fill, none }) => {
-    const { opacity, setOpacity } = useContext(BrightContext);
+const LightBulbCSS = ({ none }) => {
+    const { opacity, picker } = useContext(BrightContext);
     console.log(opacity)
+    console.log(picker)
 
     const style = css`
         position: absolute;
@@ -15,7 +16,7 @@ const LightBulbCSS = ({ fill, none }) => {
         width: 25px;
         height: 25px;
         border-radius: 50%;
-        background-color: ${fill};
+        background-color: ${picker};
         opacity: ${opacity / 100};
         
         `;
