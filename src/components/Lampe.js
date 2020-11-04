@@ -1,9 +1,11 @@
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx, css } from "@emotion/core";
+import "../stylesheets/Transitions.scss";
+
 
 const Lampe = ({ userImage }) => {
     return (
-        <img src={userImage} alt="Lamp" />
+        <img className="lamp" src={userImage} alt="Lamp" />
     );
 }
 

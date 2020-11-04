@@ -5,8 +5,8 @@ import { BrightContext } from "../contexts/BrightContext";
 
 const LightBulbCSS = ({ none }) => {
     const { opacity, picker } = useContext(BrightContext);
-    console.log(opacity)
-    console.log(picker)
+    //console.log(opacity)
+    //console.log(picker)
 
     const style = css`
         position: absolute;

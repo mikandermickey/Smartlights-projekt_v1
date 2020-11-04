@@ -19,6 +19,7 @@ const Colorbox = () => {
             {colors && colors.map(color =>
                 <SingleColor
                     color={color}
+                    key={color}
                 />
             )}
             <SingleColor color="#FFFFFF" add="+" />
