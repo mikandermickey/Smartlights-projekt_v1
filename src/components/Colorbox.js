@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { ColorContext } from "../contexts/ColorContext";
 
 
+
 const Colorbox = () => {
     const { colors } = useContext(ColorContext);
     if (colors) console.log(colors);
@@ -17,7 +18,8 @@ const Colorbox = () => {
         <div css={style}>
             {colors && colors.map(color =>
                 <SingleColor
-                    color={color} />
+                    color={color}
+                />
             )}
             <SingleColor color="#FFFFFF" add="+" />
         </div>

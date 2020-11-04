@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
+import { BrightContext } from "../contexts/BrightContext";
+import { useContext } from "react";
 
 const SingleColor = ({ color, add }) => {
+    const { setPicker } = useContext(BrightContext);
+
     const style = css`
         border-radius: 50%;
         background-color:${color};
@@ -14,7 +18,7 @@ const SingleColor = ({ color, add }) => {
         outline: none;
     `;
     return (
-        <button css={style}>{add}</button>
+        <button onClick={(e) => setPicker(color)} css={style}>{add}</button>
     );
 }
 
