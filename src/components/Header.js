@@ -5,7 +5,6 @@ import Circles from "./Circles";
 import { Router } from "@reach/router";
 
 const Header = (props) => {
-    console.log(props.roomid)
     const style = css`
         position: relative;
     `

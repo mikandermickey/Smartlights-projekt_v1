@@ -1,0 +1,29 @@
+.circles{
+     position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    animation: transitionIn 3s;
+}
+
+@keyframes transitionIn{
+   from{
+        transform: rotate(90deg);
+   }
+   to{
+        transform: rotate(0deg);
+   }
+}
+
+main{
+    animation: easeUp 2s;
+}
+
+@keyframes easeUp{
+    from{
+        margin-top: 10em;
+    }
+    to{
+        margin-top: 0;
+    }
+}
