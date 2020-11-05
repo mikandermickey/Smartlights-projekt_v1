@@ -1,39 +1,45 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
-import { Swiper } from 'swiper/react';
 import LightControls from "./LightControls";
 import { useContext } from "react";
 import { LightContext } from "../contexts/LightContext";
-import 'swiper/swiper.scss';
+import Flickity from 'react-flickity-component';
+
+const flickityOptions = {
+    initialIndex: 2,
+    freeScroll: true,
+    contain: true,
+    prevNextButtons: false,
+    pageDots: false,
+
+};
+const style = css`
+    overflow: hidden;
+    margin-bottom: 2em;
+`;
+
 
 const LightsContainer = (props) => {
     const { lights } = useContext(LightContext);
     if (lights) console.log(lights)
-    const style = css`
-        display:flex;
-        justify-content:space-around;
-        margin-bottom: 1.5em;
-    `;
     return (
-        <div className="swiper-container">
-            <Swiper
-                spaceBetween={0}
-                slidesPerView={3}
-                onSlideChange={() => console.log("slide change")
-                }
-                onSwiper={(swiper) => console.log(swiper)}
+        <div css={style}>
+            <Flickity
+                css={css` margin-left: 10em;`}
+                className={'carousel'} // default ''
+                elementType={'div'} // default 'div'
+                options={flickityOptions}>
 
-            >
-                <div css={style} className="swiper-wrapper">
-                    {lights && lights.map(light =>
-                        <LightControls
-                            icon={light.image}
-                            place={light.place}
-                            key={light.id} />
-                    )}
-                </div>
-            </Swiper >
+                {lights && lights.map(light =>
+                    <LightControls
+                        icon={light.image}
+                        place={light.place}
+                        key={light.id} />
+                )}
+
+            </Flickity>
         </div>
+
 
     );
 }
