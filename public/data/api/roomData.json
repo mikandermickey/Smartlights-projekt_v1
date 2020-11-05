@@ -1,0 +1,64 @@
+{
+    "colors": [
+        "#FF9B9B",
+        "#94EB9E",
+        "#94CAEB",
+        "#A594EB",
+        "#DE94EB",
+        "#EBD094"
+    ],
+    "lights": [
+        {
+            "id": "1",
+            "image": "data/img/mainLight.svg",
+            "place": "Main Light"
+        },
+        {
+            "id": "2",
+            "image": "data/img/desklight.svg",
+            "place": "Desk Lights"
+        },
+        {
+            "id": "3",
+            "image": "data/img/bedlight.svg",
+            "place": "Bed Light"
+        },
+        {
+            "id": "4",
+            "image": "data/img/bedlight.svg",
+            "place": "Bed Light"
+        }
+    ],
+    "rooms": [
+        {
+            "id": "bed room",
+            "lights": "4",
+            "image": "data/img/bed.svg"
+        },
+        {
+            "id": "living room",
+            "lights": "2",
+            "image": "data/img/room.svg"
+        },
+        {
+            "id": "kitchen",
+            "lights": "5",
+            "image": "data/img/kitchen.svg"
+        },
+        {
+            "id": "bathroom",
+            "lights": "1",
+            "image": "data/img/bathtube.svg"
+        },
+        {
+            "id": "outdoor",
+            "lights": "5",
+            "image": "data/img/house.svg"
+        },
+        {
+            "id": "balcony",
+            "lights": "2",
+            "image": "data/img/balcony.svg"
+        }
+    ]
+}
