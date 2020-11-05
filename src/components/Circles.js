@@ -7,8 +7,6 @@ const Circles = ({ circle }) => {
 
     return (
         <img className="circles" src={circle} alt="circles" />
-
-
     );
 }
 
