@@ -1,9 +1,12 @@
 /** @jsx jsx */
-import { jsx } from "@emotion/core";
+import { jsx, css } from "@emotion/core";
 
 const Avatar = ({ userImage }) => {
+    const style = css`
+        z-index: 2;
+    `;
     return (
-        <img src={userImage} alt="User" />
+        <img css={style} src={userImage} alt="User" />
     );
 }
 

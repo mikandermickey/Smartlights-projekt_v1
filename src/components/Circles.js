@@ -1,18 +1,12 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
+import "../stylesheets/Transitions.scss";
 
 const Circles = ({ circle }) => {
 
-    const style = css`
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        width: 375px;
-    `;
+
     return (
-        <img css={style} src={circle} alt="circles" />
-
-
+        <img className="circles" src={circle} alt="circles" />
     );
 }
 
